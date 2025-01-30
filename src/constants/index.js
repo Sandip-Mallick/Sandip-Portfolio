@@ -129,7 +129,7 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/sandip999-art',
+        link: 'https://github.com/Sandip-Mallick',
     },
     {
         name: 'LinkedIn',
@@ -144,7 +144,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Food Ordering App',
         description: 'Developed a web application where restaurent can register on the platform. Users Can oder food online from respective restaurens of their choice.',
-        link: 'https://github.com/sandip999-art/Food-ordering-app-frontend',
+        link: 'https://food-ordering-app-frontend-0fu2.onrender.com',
     },
     {
         iconUrl: threads,
@@ -158,7 +158,7 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Esports App',
         description: 'Designed and built a Web App for Esports Gaming.',
-        link: 'https://github.com/sandip999-art/Esport-Website',
+        link: 'https://gaming-design-one.vercel.app/',
     },
     {
         iconUrl: snapgram,
