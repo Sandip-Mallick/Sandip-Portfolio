@@ -6,23 +6,14 @@ import { About, Contact, Home, Projects } from "./pages";
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
-      <Router basename="/">
+      <Router>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route
-            path='/*'
-            element={
-              <>
-                <Routes>
-                  <Route path='/about' element={<About />} />
-                  <Route path='/projects' element={<Projects />} />
-                  <Route path='/contact' element={<Contact />} />
-                </Routes>
-                <Footer />
-              </>
-            }
-          />
+          <Route path='/about' element={<><About /><Footer /></>} />
+          <Route path='/projects' element={<><Projects /><Footer /></>} />
+          <Route path='/contact' element={<><Contact /><Footer /></>} />
+          <Route path='*' element={<><Home /><Footer /></>} />
         </Routes>
       </Router>
     </main>
